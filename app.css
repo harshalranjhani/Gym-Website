@@ -1,0 +1,113 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: no-repeat url('bg3.jpg');
+    background-size: cover;
+}
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left div{
+    text-align: center;
+    line-height: 0;
+    font-size: 22px;
+}
+
+.left img{
+    width: 68px;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.mid{
+    display:block;
+    width: 55%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+}
+
+.right{
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 9px;
+    color: white;
+    background-color: rgba(61, 59, 59, 0.109);
+    padding: 3px 4px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+.btn:hover{
+    background-color: rgb(214, 209, 209);
+    font-size: 40px;
+}
+
+.container{
+    /* border: 2px solid white; */
+    margin: 144px 10px;
+    padding: 75px;
+    width: 33%;
+    display: block;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 53%;
+    margin: 10px auto;
+}
+
+.form-input input{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 18px auto;
+    font-size: 22px;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 15px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
